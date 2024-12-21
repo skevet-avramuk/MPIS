@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/dark_gray"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:visibility="visible">
+
+    <!-- Заголовок -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="12dp"
+        android:background="@color/darker_gray"
+        android:padding="12dp"
+        android:layout_marginHorizontal="8dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Delete client by id" />
+    </LinearLayout>
+
+    <!-- Подтверждение действия -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/darker_gray"
+        android:padding="12dp"
+        android:layout_marginHorizontal="8dp"
+        android:elevation="4dp">
+
+        <EditText
+            android:id="@+id/clientIdInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Client ID"
+            android:textColor="@color/darker_gray"
+            android:textColorHint="@color/yellow"
+            android:inputType="number"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+    </LinearLayout>
+
+
+    <!-- Кнопки подтверждения и отмены -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="120dp"
+            android:layout_height="38dp"
+            android:text="Delete"
+            android:textColor="@android:color/black"
+            android:background="@drawable/circular_button"
+            android:layout_marginEnd="8dp"
+            android:focusableInTouchMode="true"
+            android:padding="6dp" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="120dp"
+            android:layout_height="38dp"
+            android:text="Cancel"
+            android:textColor="@android:color/black"
+            android:background="@drawable/circular_button"
+            android:focusableInTouchMode="true"
+            android:padding="6dp" />
+    </LinearLayout>
+</LinearLayout>

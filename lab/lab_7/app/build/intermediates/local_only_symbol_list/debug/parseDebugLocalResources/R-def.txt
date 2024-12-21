@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color ic_launcher_background
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable img
+drawable img_1
+drawable img_2
+drawable img_3
+drawable img_4
+drawable img_5
+id imageView
+id main
+id nextImageButton
+id nextVideoButton
+id playButton
+id stopButton
+id textView
+id videoView
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw lab7_1
+raw lab7_2
+string app_name
+string author
+style Base.Theme.Lab7SavkoPS
+style Theme.Lab7SavkoPS
+xml backup_rules
+xml data_extraction_rules

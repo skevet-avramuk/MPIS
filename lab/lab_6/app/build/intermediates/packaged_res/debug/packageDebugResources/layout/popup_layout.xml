@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textViewInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the application! Here you can download and view magazines"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDoNotShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Don't show again" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#17B9C8"
+        android:text="ОК" />
+</LinearLayout>

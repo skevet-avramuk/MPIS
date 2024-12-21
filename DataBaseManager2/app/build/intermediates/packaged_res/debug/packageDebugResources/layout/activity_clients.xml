@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/dark_gray"
+    android:gravity="center_horizontal">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_black"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/tv_title_tables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CARS"
+            android:textColor="@color/yellow"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Кнопки для добавления, редактирования и удаления -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <!-- Первая строка, кнопка Add -->
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:background="@color/darker_gray"
+            android:drawableStart="@drawable/ic_add"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="15px"
+            android:text="Add"
+            android:textColor="@color/yellow"
+            app:layout_constraintEnd_toStartOf="@+id/btn_edit"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Первая строка, кнопка Edit -->
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:background="@color/darker_gray"
+            android:drawableStart="@drawable/ic_edit"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="15px"
+            android:text="Edit"
+            android:textColor="@color/yellow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/btn_add"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Вторая строка, кнопка Delete -->
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/darker_gray"
+            android:drawableStart="@drawable/ic_delete"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="15px"
+            android:text="Delete"
+            android:textColor="@color/yellow"
+            app:layout_constraintEnd_toStartOf="@+id/btn_filter"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_add" />
+
+        <!-- Вторая строка, кнопка Filter -->
+        <Button
+            android:id="@+id/btn_filter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/darker_gray"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/ic_filter"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="15px"
+            android:text="Filter"
+            android:textColor="@color/yellow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/btn_delete"
+            app:layout_constraintTop_toBottomOf="@+id/btn_edit" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:showDividers="middle">
+        <TableRow
+            android:layout_marginBottom="1dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ID"
+                android:layout_marginEnd="1dp"
+                android:textColor="@color/yellow"
+                android:background="@color/darker_gray"
+                android:textSize="14sp"
+                android:padding="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Model"
+                android:layout_marginEnd="1dp"
+                android:textColor="@color/yellow"
+                android:background="@color/darker_gray"
+                android:textSize="14sp"
+                android:padding="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="car_name"
+                android:layout_marginEnd="1dp"
+                android:textColor="@color/yellow"
+                android:background="@color/darker_gray"
+                android:textSize="14sp"
+                android:padding="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="year"
+                android:layout_marginEnd="1dp"
+                android:textColor="@color/yellow"
+                android:background="@color/darker_gray"
+                android:textSize="14sp"
+                android:padding="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="color"
+                android:textColor="@color/yellow"
+                android:background="@color/darker_gray"
+                android:textSize="14sp"
+                android:padding="8dp"
+                android:gravity="center"/>
+        </TableRow>
+
+    </TableLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TableLayout
+                android:id="@+id/client_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:divider="@android:color/darker_gray"
+                android:showDividers="middle" />
+
+        </ScrollView>
+    </LinearLayout>
+
+    <!-- ScrollView для прокрутки таблицы -->
+</LinearLayout>

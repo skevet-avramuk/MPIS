@@ -1,0 +1,108 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/dark_gray"
+    android:padding="12dp"
+    android:layout_marginHorizontal="8dp"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="12dp"
+        android:background="@color/gray_dark"
+        android:padding="12dp"
+        android:layout_marginHorizontal="8dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Search client by filter" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Client ID"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@color/yellow"
+        android:textColorHint="@color/yellow"
+        android:layout_marginBottom="8dp"
+        android:background="@color/darker_gray"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="@color/yellow"
+        android:textColorHint="@color/yellow"
+        android:background="@color/darker_gray"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColor="@color/yellow"
+        android:textColorHint="@color/yellow"
+        android:background="@color/darker_gray"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/yellow"
+        android:textColorHint="@color/yellow"
+        android:background="@color/darker_gray"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/filterButton"
+            android:layout_width="120dp"
+            android:layout_height="38dp"
+            android:text="Search"
+            android:textColor="@android:color/black"
+            android:background="@drawable/circular_button"
+            android:layout_marginEnd="8dp"
+            android:focusableInTouchMode="true"
+            android:padding="6dp" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="120dp"
+            android:layout_height="38dp"
+            android:text="Cancel"
+            android:textColor="@android:color/black"
+            android:background="@drawable/circular_button"
+            android:focusableInTouchMode="true"
+            android:padding="6dp" />
+    </LinearLayout>
+
+</LinearLayout>

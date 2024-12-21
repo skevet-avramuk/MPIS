@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#c0c0c0</color>
+    <color name="ic_launcher_background">#08DE8B</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">lab_8</string>
+    <string name="author">Vashchuk Anatoli Valer\'evich</string>
+    <style name="Base.Theme.Lab8Savko" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Lab8Savko" parent="Base.Theme.Lab8Savko"/>
+</resources>

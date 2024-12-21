@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color ic_launcher_background
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonCallTaxi
+id buttonOK
+id buttonRegistration
+id buttonSetPath
+id editTextCityA
+id editTextCityB
+id editTextHouseA
+id editTextHouseB
+id editTextLastname
+id editTextName
+id editTextPhone
+id editTextStreetA
+id editTextStreetB
+id main
+id textView
+id textViewName
+id textViewPhone
+id textViewPointA
+id textViewPointB
+id textViewRoute
+layout activity_address
+layout activity_call
+layout activity_sign
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Laba_3
+style Theme.Laba_3
+xml backup_rules
+xml data_extraction_rules

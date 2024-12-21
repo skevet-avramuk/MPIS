@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="dark_gray">#333333</color>
+    <color name="darker_gray">#2A2A2A</color>
+    <color name="double_light_black">#1D1C1C</color>
+    <color name="gray_dark">#212121</color>
+    <color name="light_black">#181717</color>
+    <color name="yellow">#FFD700</color>
+    <string name="app_name">Data Base Manager</string>
+    <string name="developer">Developer</string>
+    <string name="instruction">Instruction</string>
+    <string name="tables">Tables</string>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Theme.DataBaseManager" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/dark_gray</item>
+    </style>
+</resources>

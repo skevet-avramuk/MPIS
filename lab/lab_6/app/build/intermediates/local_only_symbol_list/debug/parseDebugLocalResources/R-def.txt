@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color ic_launcher_background
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonDelete
+id buttonDownload
+id buttonOk
+id buttonView
+id checkBoxDoNotShow
+id editTextId
+id textView2
+id textViewInstruction
+layout activity_main
+layout popup_layout
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Lab6SavkoPS
+style Theme.Lab6SavkoPS
+xml backup_rules
+xml data_extraction_rules
+xml file_paths
+xml network_security_config

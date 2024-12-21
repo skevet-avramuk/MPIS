@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#FFCF2A</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">lab_7</string>
+    <string name="author">Vashchuk Anatoli Valer\'evich</string>
+    <style name="Base.Theme.Lab7SavkoPS" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Lab7SavkoPS" parent="Base.Theme.Lab7SavkoPS"/>
+</resources>

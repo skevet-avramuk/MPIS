@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_ic_delete.png.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\ic_delete.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_dialog_title_background.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\dialog_title_background.xml"
+    },
+    {
+        "merged": "com.example.databasemanager.app-debug-4:/layout_dialog_add_client.xml.flat",
+        "source": "com.example.databasemanager.app-main-6:/layout/dialog_add_client.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_title_background.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\title_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_black_button.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\black_button.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_yellow_button.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\yellow_button.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_dialog_message_background.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\dialog_message_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_rounded_button.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_ic_edit.png.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\ic_edit.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\layout_activity_clients.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\layout\\activity_clients.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_ic_add.png.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\ic_add.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\layout_activity_tables.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\layout\\activity_tables.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_ic_filter.png.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\ic_filter.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_rounded_border.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\rounded_border.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\layout_dialog_add_client.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\layout\\dialog_add_client.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_circular_button.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\circular_button.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\layout_item_client.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\layout\\item_client.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\layout_dialog_delete_client.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\layout\\dialog_delete_client.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\xml_backup_rules.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_button_background.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "com.example.databasemanager.app-debug-4:/layout_dialog_filter_client.xml.flat",
+        "source": "com.example.databasemanager.app-main-6:/layout/dialog_filter_client.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\layout_custom_dialog.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_dialog_background.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\dialog_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_rect_rounded_frame.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\rect_rounded_frame.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\layout_activity_main.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\layout_developer_dialog.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\layout\\developer_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\xml_data_extraction_rules.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.databasemanager.app-debug-4:/layout_activity_clients.xml.flat",
+        "source": "com.example.databasemanager.app-main-6:/layout/activity_clients.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\AndroidStudio\\laba_3\\daemon\\8.7\\com.example.databasemanager.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    }
+]

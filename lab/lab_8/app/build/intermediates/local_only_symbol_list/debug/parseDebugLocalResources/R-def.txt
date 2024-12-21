@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color gray
+color ic_launcher_background
+color white
+drawable ic_current_location
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable location_button
+drawable my_location_svgrepo_com
+id centerOnUserButton
+id map
+id textView
+id visitedPlaceButton
+layout activity_maps
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string author
+style Base.Theme.Lab8Savko
+style Theme.Lab8Savko
+xml backup_rules
+xml data_extraction_rules

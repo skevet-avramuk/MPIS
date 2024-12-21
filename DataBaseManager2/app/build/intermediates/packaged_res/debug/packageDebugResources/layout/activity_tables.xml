@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/dark_gray"
+    android:gravity="center_horizontal">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_black"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tv_title_tables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TABLES"
+            android:textColor="@color/yellow"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darker_gray"
+        android:elevation="4dp"
+        android:padding="5dp"
+        android:layout_marginBottom="12dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reference Docs"
+                android:textColor="@color/yellow"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:padding="6dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_dark"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="8dp">
+
+                <!-- Кнопка -->
+                <Button
+                    android:id="@+id/btn_drivers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Drivers"
+                    android:textColor="@color/yellow"
+                    android:textSize="16sp"
+                    android:background="@color/light_black"
+                    android:onClick="onViewDriversClicked"/>
+
+                <!-- Дополнительная информация о записи -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@color/gray_dark"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <!-- Кнопка -->
+                <Button
+                    android:id="@+id/btn_clients"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_black"
+                    android:onClick="onViewClientsClicked"
+                    android:text="Clients"
+                    android:textColor="@color/yellow"
+                    android:textSize="16sp" />
+
+                <!-- Дополнительная информация о записи -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@color/gray_dark"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <!-- Кнопка -->
+                <Button
+                    android:id="@+id/btn_cars"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_black"
+                    android:onClick="onViewClientsClicked"
+                    android:text="Cars"
+                    android:textColor="@color/yellow"
+                    android:textSize="16sp" />
+
+                <!-- Дополнительная информация о записи -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darker_gray"
+        android:elevation="4dp"
+        android:padding="5dp"
+        android:layout_marginBottom="12dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Operating Docs"
+                android:textColor="@color/yellow"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:padding="6dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_dark"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="8dp">
+
+                <!-- Кнопка -->
+                <Button
+                    android:id="@+id/btn_orders"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Orders"
+                    android:textColor="@color/yellow"
+                    android:textSize="16sp"
+                    android:background="@color/light_black"
+                    android:onClick="onViewOrdersClicked"/>
+
+                <!-- Дополнительная информация о записи -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
